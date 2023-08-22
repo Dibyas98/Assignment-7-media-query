@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.white_space{
+    height: 20vh;
+}
+
+.yellow_space{
+    height:80vh;
+    width: 100%;
+    background-color: rgb(240,197,11);
+    
+}
+.adver{
+    display: flex;
+    gap: 9em;
+    padding: 0 400px;
+    width: 40%;
+}
+.content{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    right: 90px;
+}
+.coffee{
+    position: relative;
+    bottom: 65px;
+}
+.heading-1{
+    width: 250px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.second{
+    position: relative;
+    bottom: 60px;
+}
+.para{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    font-weight: bolder;
+}
+.learn button{
+    position: relative;
+    bottom: 70px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 130px;
+}
+
+@media screen and (max-width:1024px) {
+    .yellow_space{
+        width: 1440px;
+    }
+    .adver{
+        padding: 0 350px;
+    }
+}
